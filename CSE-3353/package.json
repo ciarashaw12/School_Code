@@ -1,0 +1,24 @@
+{
+  "name": "cse3353",
+  "version": "1.0.0",
+  "description": "## Welcome!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristianAyala/CSE-3353.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristianAyala/CSE-3353/issues"
+  },
+  "homepage": "https://github.com/ChristianAyala/CSE-3353#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-google": "^0.9.1"
+  },
+  "dependencies": {}
+}

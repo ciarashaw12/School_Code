@@ -1,0 +1,41 @@
+﻿Ciara Shaw
+
+
+Do some outside research on some of the internals specific to JavaScript.
+
+
+1. We touched on what an object prototype is briefly in class. Describe what a prototype is in the context of JavaScript objects. How do they emulate inheritance? 
+Provide a practical example.
+   - A prototype in javascript is a type inheritance that is special to Javascript. A prototype is used inherits properties from a Object. 
+However, when you use a prototype anything that has been associated with the object. You will be able to see all objects through the link that each object has with each other.
+                
+                Example:
+                let Name = function(n){
+                        this.name = n;
+                }
+
+
+                Name.prototype.sayName = function()
+                {
+                        console.log(this.name);
+                }
+2. Investigate the new class syntax (tip: it was introduced in ECMAScript 6). What are the differences between classes and regular functions?
+   - The difference between classes and regular functions. Is that for classes you first have to declare with the keyword class, 
+and right next to it the name of the class, and then add curly braces to inclose the functions you want to add. 
+Within the class you can just declare constructor and the functions just using the name, a
+nd adding curly braces with whatever functionality that you want. 
+Also there is no need at the end of the classes curly braces to end with a semicolon.
+   
+- For functions you have to declare using a variable keyword like var with name 
+and then use the assignment operator to assign the name to the function keyword with its parameters. 
+That initial function with act like a constructor. To add functions that relate to it you would use the 
+Name of the function.prototype.the name of the specific function then assign it to function just like for the first initial function, 
+and then add curly braces that end with semicolons.
+
+1. Recreate the LinkedList function from the Github repo to use the class syntax. What changes were needed to make it work?
+   1. The changes that were made making the node and linked list function to class syntax. 
+Then changing each function to match the new syntax for classes and getting rid of unnecessary semicolons.
+
+
+
+

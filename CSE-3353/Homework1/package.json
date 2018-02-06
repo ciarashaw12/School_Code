@@ -1,0 +1,15 @@
+{
+  "name": "homework1",
+  "version": "1.0.0",
+  "description": "This homework consist of recreating a binary search tree in javascript with other class functionality",
+  "main": "BinarySearchTree.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ciara Shaw",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}

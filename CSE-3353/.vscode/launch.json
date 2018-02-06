@@ -1,0 +1,19 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Launch Program",
+			// Make sure this is updated to the correct program you are trying
+			// to debug. You can also Add Configurations, just be sure you select
+			// Node.js: Launch program
+			// and put the correct path
+			"program": "${workspaceFolder}/2018-01-29/linkedlist.js"
+		}
+	]
+}
