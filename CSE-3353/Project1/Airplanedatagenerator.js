@@ -29,9 +29,11 @@ Airplane.y;
 for(i = 0; i < 100; i++)
 {
     Airplane_data.push(
-
-    )
-
+        Airplane.Flightnumber = chance.string({length:8}),
+        Airplane.x = chance.floating({fixed: 1}),
+        Airplane.y = chance.floating({fixed: 1})
+    );
+    
 }
 
 //Export data into jsonfile
