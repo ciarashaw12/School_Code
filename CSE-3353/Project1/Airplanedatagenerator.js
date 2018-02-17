@@ -17,19 +17,24 @@ var chance = new Chance();
 
 for(i = 0; i < 100; i++)
 {
+    //Giving the first two letters
     let char = chance.string({pool:'ABCDEFGHIJKLMNOPQRSTUVWXYZ', length:2});
+    //the last four digits for flightnumber 
     let num  = chance.string({length:4, pool:'1234567890'});
     let name = char + num;
     Airplane_data.push({FlightNumber:name, 
-    x:chance.floating({min:-10, max: 10, fixed:1}), 
-    y:chance.floating({min:-10, max:10, fixed:1})});
+    x:chance.floating({min:-10, max: 10, fixed:4}), 
+    y:chance.floating({min:-10, max:10, fixed:4})} );
 }
-
-for(j = 0; j < 100; j++)
-{
-    console.log(Airplane_data[j]);
-}
-
-
 
 //Writing out to a json file.
+ const fs = require('fs'); 
+
+ fs.writeFile("./airplane_map.json", JSON.stringify(Airplane_data, null, '\t'), 'utf8', (err) => {
+    if (err) {
+        console.error(err);
+        return;
+    };
+    console.log("File has been created");
+});
+
