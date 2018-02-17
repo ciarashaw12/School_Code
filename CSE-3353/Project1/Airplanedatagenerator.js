@@ -55,20 +55,24 @@ createGraph = function(x,y)
 
     y.mode = null;
     y.type =null;
+    y.text = null;
+    y.name = null;
 
     let intg = 0
 
     for(i = 0;i < 100; i++)
     {
+        let newText = x[i].FlightNumber;
         x[i].mode = "markers";
         x[i].type = "scatter";
+        x[i].text = newText;
+        x[i].name = newText;
+
     } 
 
      var plotly = require('plotly')("CiaraShaw","zukAhlJsEm9A99MH4c4W");
 
     
-
-
 
     fs.writeFile("./test_map.json", JSON.stringify(x, null, '\t'), 'utf8', (err) => {
         if (err) {
