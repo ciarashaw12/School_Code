@@ -72,16 +72,6 @@ createGraph = function(x,y)
 
      var plotly = require('plotly')("CiaraShaw","zukAhlJsEm9A99MH4c4W");
 
-    
-
-    fs.writeFile("./test_map.json", JSON.stringify(x, null, '\t'), 'utf8', (err) => {
-        if (err) {
-            console.error(err);
-            return;
-        };
-        console.log("test File has been created");
-    });
-
     var graphOptions = {filename: "line-scatter", fileopt: "overwrite"};
 
     plotly.plot(x, graphOptions, function (err, msg) {
