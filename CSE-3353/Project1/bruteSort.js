@@ -1,6 +1,6 @@
 var data = require('./airplane_map.json');
 
-splitArray = function(d)
+sortArray = function(d)
 {   
     //Checking to see if the length of the array is either zero or one
     if(d.length === 1)
@@ -19,10 +19,9 @@ splitArray = function(d)
     const right = d.slice(mid);
 
 
-    return mergeSort(splitArray(left),splitArray(right));
+    return mergeSort(sortArray(left),sortArray(right));
 
 }
-
 
 //Comparsion function for merge sort
 mergeSort = function(l,r)
@@ -54,35 +53,28 @@ getDistance = function(p1,q1)
     return dist = Math.sqrt(Math.pow(p1.x - q1.x, 2) + Math.pow(p1.y - q1.y, 2)); 
 }
 
-BruteForce = function(data)
+AlternateBruteForce = function(data)
 {
-    
-    for(i = 0; i < data.length; ++i)
+   
+    for(i = 0; i < data.length - 1; ++i)
     {
-        for(j = i + 1; j < data.length; ++j)
+        j = i + 1
+        let dist = getDistance(data[i], data[j])
+        if(i == 0)
         {
-            //assign distance based of the x and y coordinates of the array
-            let dist = getDistance(data[i],data[j])
-            //Setting the intial first distance calcuated between two points
-            if(i === 0 && j === 1)
-            {
-                min = dist;
-            }
-            else if(dist < min) //If the dist is smaller than the prev assigned dist.Then the min and the two airplanes will be updated.
-            {
-                var Airplane1_name = data[i].FlightNumber;
-                var Airplane1_x = data[i].x;
-                var Airplane1_y = data[i].y;
-                var Airplane2_name = data[j].FlightNumber;
-                var Airplane2_x = data[j].x;
-                var Airpane2_y = data[j].y;
-                min = dist;
-
-            }
-           
-        } 
+            min = dist
+        }
+        else if(dist < min)
+        {
+            var Airplane1_name = data[i].FlightNumber;
+            var Airplane1_x = data[i].x;
+            var Airplane1_y = data[i].y;
+            var Airplane2_name = data[j].FlightNumber;
+            var Airplane2_x = data[j].x;
+            var Airpane2_y = data[j].y;
+            min = dist;
+        }
     }
-    //Returns a object of the results from the algorithm
     console.log("Brute Force Results");
     return{
         "This is Airpane1":Airplane1_name,
@@ -95,4 +87,5 @@ BruteForce = function(data)
     };
 }
 
-console.log(BruteForce(splitArray(data)));
+
+console.log(AlternateBruteForce(sortArray(data)));
