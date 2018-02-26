@@ -52,3 +52,4 @@ BruteForce = function(data)
 }
 
 
+console.log(BruteForce(data));

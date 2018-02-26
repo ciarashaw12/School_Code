@@ -18,7 +18,7 @@ var chance = new Chance();
 
 //Adding the info into the array.
 
-for(i = 0; i < 20; i++)
+for(i = 0; i < 100; i++)
 {
    
     //Giving the first two letters
@@ -48,7 +48,7 @@ for(i = 0; i < 20; i++)
 
 //Creating the option to plot the data of a scatterplot
 //It will export a url in the console when fucntion is called
-//In order to start testing my brute force algorithm
+//In order to start testing my brute force algorithm $$$$$Extra credit bruh$$$$$
 
 createGraph = function(x,y)
 {
