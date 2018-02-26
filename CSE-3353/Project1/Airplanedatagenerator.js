@@ -1,4 +1,4 @@
-
+ 
 /*Project 1
 Author: Ciara Shaw
 */
@@ -18,7 +18,7 @@ var chance = new Chance();
 
 //Adding the info into the array.
 
-for(i = 0; i < 100; i++)
+for(i = 0; i < 20; i++)
 {
    
     //Giving the first two letters
@@ -60,7 +60,7 @@ createGraph = function(x,y)
 
     let intg = 0
 
-    for(i = 0;i < 100; i++)
+    for(i = 0;i < 20; i++)
     {
         let newText = x[i].FlightNumber;
         x[i].mode = "markers";

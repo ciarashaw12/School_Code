@@ -10,8 +10,6 @@ getDistance = function(p1,q1)
     return dist = Math.sqrt(Math.pow(p1.x - q1.x, 2) + Math.pow(p1.y - q1.y, 2)); 
 }
 
-
-
 BruteForce = function(data)
 {
     
@@ -53,9 +51,4 @@ BruteForce = function(data)
     };
 }
 
-sortedBruteForce = function(data)
-{
 
-}
-
-console.log(BruteForce(data));

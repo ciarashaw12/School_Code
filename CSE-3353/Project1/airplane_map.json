@@ -1,502 +1,102 @@
 [
 	{
-		"FlightNumber": "YT7017",
-		"x": -1.4004,
-		"y": 5.3456
+		"FlightNumber": "EI0035",
+		"x": 1.8948,
+		"y": 5.6139
 	},
 	{
-		"FlightNumber": "IM6836",
-		"x": -0.1715,
-		"y": 1.7221
+		"FlightNumber": "XX4717",
+		"x": -1.7322,
+		"y": 4.9275
 	},
 	{
-		"FlightNumber": "WO3437",
-		"x": 4.0072,
-		"y": -2.5737
+		"FlightNumber": "XK9134",
+		"x": -1.1449,
+		"y": -9.0026
 	},
 	{
-		"FlightNumber": "IR1011",
-		"x": -8.878,
-		"y": -5.7606
+		"FlightNumber": "RG4912",
+		"x": 1.6026,
+		"y": -4.201
 	},
 	{
-		"FlightNumber": "EH0447",
-		"x": 8.2591,
-		"y": 9.9659
+		"FlightNumber": "BA8339",
+		"x": 3.0457,
+		"y": 6.8401
 	},
 	{
-		"FlightNumber": "DB3827",
-		"x": 2.6801,
-		"y": 3.2169
+		"FlightNumber": "RB2465",
+		"x": -7.1698,
+		"y": -9.728
 	},
 	{
-		"FlightNumber": "GN9914",
-		"x": 4.8911,
-		"y": -8.8346
+		"FlightNumber": "HV8607",
+		"x": -4.6788,
+		"y": 5.0808
 	},
 	{
-		"FlightNumber": "GF1467",
-		"x": -9.2444,
-		"y": 5.1076
+		"FlightNumber": "MC5475",
+		"x": 9.5427,
+		"y": 8.6285
 	},
 	{
-		"FlightNumber": "BJ9567",
-		"x": 2.117,
-		"y": 9.6232
+		"FlightNumber": "UA3975",
+		"x": 3.7568,
+		"y": -1.0954
 	},
 	{
-		"FlightNumber": "SO3749",
-		"x": 9.2792,
-		"y": 7.9643
+		"FlightNumber": "OW1666",
+		"x": 7.0299,
+		"y": 2.1449
 	},
 	{
-		"FlightNumber": "ZZ1035",
-		"x": 7.9412,
-		"y": -2.7498
+		"FlightNumber": "VW6906",
+		"x": 0.0918,
+		"y": -4.6018
 	},
 	{
-		"FlightNumber": "SE9287",
-		"x": -9.9014,
-		"y": -1.5801
+		"FlightNumber": "FG8073",
+		"x": -4.9201,
+		"y": -6.2885
 	},
 	{
-		"FlightNumber": "US3026",
-		"x": 4.6165,
-		"y": 7.0465
+		"FlightNumber": "VR4290",
+		"x": -3.3167,
+		"y": 9.4235
 	},
 	{
-		"FlightNumber": "EC6879",
-		"x": 1.3327,
-		"y": 6.1638
+		"FlightNumber": "TM4112",
+		"x": 1.6615,
+		"y": -4.6206
 	},
 	{
-		"FlightNumber": "BB2905",
-		"x": 3.5933,
-		"y": -4.5226
+		"FlightNumber": "UW6303",
+		"x": -3.1486,
+		"y": 3.4396
 	},
 	{
-		"FlightNumber": "XU0904",
-		"x": 5.1744,
-		"y": -1.2308
+		"FlightNumber": "EX0525",
+		"x": 1.202,
+		"y": -3.0818
 	},
 	{
-		"FlightNumber": "VH6421",
-		"x": -8.7532,
-		"y": 0.4153
+		"FlightNumber": "RZ9924",
+		"x": -4.256,
+		"y": 0.4959
 	},
 	{
-		"FlightNumber": "CU8784",
-		"x": -6.4093,
-		"y": -1.0102
+		"FlightNumber": "SM6967",
+		"x": -7.2634,
+		"y": -7.6857
 	},
 	{
-		"FlightNumber": "EC4631",
-		"x": -7.73,
-		"y": 5.5155
+		"FlightNumber": "JR8051",
+		"x": 8.5126,
+		"y": -8.3408
 	},
 	{
-		"FlightNumber": "YW5296",
-		"x": -9.9284,
-		"y": 5.175
-	},
-	{
-		"FlightNumber": "ND9385",
-		"x": 4.1903,
-		"y": 5.9446
-	},
-	{
-		"FlightNumber": "VE0640",
-		"x": 7.8334,
-		"y": -0.6768
-	},
-	{
-		"FlightNumber": "CR0154",
-		"x": -7.7985,
-		"y": -8.0269
-	},
-	{
-		"FlightNumber": "TB5843",
-		"x": -5.2164,
-		"y": 8.6596
-	},
-	{
-		"FlightNumber": "FW2863",
-		"x": 9.1806,
-		"y": -6.8809
-	},
-	{
-		"FlightNumber": "IR1894",
-		"x": 5.2365,
-		"y": -8.3713
-	},
-	{
-		"FlightNumber": "DS0749",
-		"x": -4.0615,
-		"y": 5.0571
-	},
-	{
-		"FlightNumber": "GS2115",
-		"x": 9.7451,
-		"y": 3.6643
-	},
-	{
-		"FlightNumber": "HC7048",
-		"x": -6.2017,
-		"y": 5.7638
-	},
-	{
-		"FlightNumber": "IA0286",
-		"x": 9.3489,
-		"y": -2.0055
-	},
-	{
-		"FlightNumber": "IN6696",
-		"x": 9.3148,
-		"y": -0.2577
-	},
-	{
-		"FlightNumber": "NH7184",
-		"x": 6.0263,
-		"y": 5.5175
-	},
-	{
-		"FlightNumber": "TK3838",
-		"x": 4.9571,
-		"y": -2.6567
-	},
-	{
-		"FlightNumber": "SO7182",
-		"x": -3.9761,
-		"y": -3.2058
-	},
-	{
-		"FlightNumber": "AZ1071",
-		"x": -8.2637,
-		"y": -7.6103
-	},
-	{
-		"FlightNumber": "QM2528",
-		"x": -8.5746,
-		"y": 5.5494
-	},
-	{
-		"FlightNumber": "CK1755",
-		"x": 1.9371,
-		"y": 1.267
-	},
-	{
-		"FlightNumber": "AI2135",
-		"x": -0.5745,
-		"y": 5.6461
-	},
-	{
-		"FlightNumber": "NG1250",
-		"x": -1.9568,
-		"y": 8.2865
-	},
-	{
-		"FlightNumber": "FX1389",
-		"x": -9.6732,
-		"y": -4.1833
-	},
-	{
-		"FlightNumber": "AB4862",
-		"x": 0.6296,
-		"y": 1.5128
-	},
-	{
-		"FlightNumber": "ZT8352",
-		"x": -2.9335,
-		"y": -2.7042
-	},
-	{
-		"FlightNumber": "GG1341",
-		"x": -0.6435,
-		"y": 4.4417
-	},
-	{
-		"FlightNumber": "BW8663",
-		"x": 7.9479,
-		"y": -9.3684
-	},
-	{
-		"FlightNumber": "ZV9929",
-		"x": 9.0728,
-		"y": -6.5445
-	},
-	{
-		"FlightNumber": "CT1215",
-		"x": 1.0009,
-		"y": -7.2289
-	},
-	{
-		"FlightNumber": "YW5826",
-		"x": 4.8849,
-		"y": 2.8191
-	},
-	{
-		"FlightNumber": "AM7321",
-		"x": -5.5655,
-		"y": 1.954
-	},
-	{
-		"FlightNumber": "AG7602",
-		"x": 2.8579,
-		"y": 4.9638
-	},
-	{
-		"FlightNumber": "EG6838",
-		"x": 6.467,
-		"y": -7.8154
-	},
-	{
-		"FlightNumber": "PJ6140",
-		"x": 9.3172,
-		"y": 6.3854
-	},
-	{
-		"FlightNumber": "TG8017",
-		"x": -8.8081,
-		"y": -8.2183
-	},
-	{
-		"FlightNumber": "KH4074",
-		"x": 9.0104,
-		"y": -5.4374
-	},
-	{
-		"FlightNumber": "DC8802",
-		"x": -2.5687,
-		"y": -2.6134
-	},
-	{
-		"FlightNumber": "SJ2542",
-		"x": -1.8417,
-		"y": 4.7132
-	},
-	{
-		"FlightNumber": "PE8595",
-		"x": -2.5526,
-		"y": 5.4093
-	},
-	{
-		"FlightNumber": "XO2475",
-		"x": 6.3631,
-		"y": 7.5503
-	},
-	{
-		"FlightNumber": "RM1934",
-		"x": -1.8354,
-		"y": 1.955
-	},
-	{
-		"FlightNumber": "GL7373",
-		"x": 7.0486,
-		"y": -9.2708
-	},
-	{
-		"FlightNumber": "BT1610",
-		"x": 1.5582,
-		"y": 4.1084
-	},
-	{
-		"FlightNumber": "MO1978",
-		"x": -4.1996,
-		"y": 3.4666
-	},
-	{
-		"FlightNumber": "HX4076",
-		"x": -5.5239,
-		"y": 4.5977
-	},
-	{
-		"FlightNumber": "NC8474",
-		"x": -1.0667,
-		"y": -1.4465
-	},
-	{
-		"FlightNumber": "BY0196",
-		"x": 1.9939,
-		"y": 1.3111
-	},
-	{
-		"FlightNumber": "RI4611",
-		"x": 7.2733,
-		"y": -7.8572
-	},
-	{
-		"FlightNumber": "JS1217",
-		"x": -5.4417,
-		"y": -4.316
-	},
-	{
-		"FlightNumber": "RB7283",
-		"x": -7.4015,
-		"y": 9.3807
-	},
-	{
-		"FlightNumber": "XY1233",
-		"x": 6.527,
-		"y": -2.7525
-	},
-	{
-		"FlightNumber": "ZY0041",
-		"x": -9.3166,
-		"y": 9.0707
-	},
-	{
-		"FlightNumber": "GP8790",
-		"x": -8.8959,
-		"y": 5.7383
-	},
-	{
-		"FlightNumber": "MN9090",
-		"x": -8.8663,
-		"y": 6.137
-	},
-	{
-		"FlightNumber": "LP2042",
-		"x": -8.8101,
-		"y": 0.4047
-	},
-	{
-		"FlightNumber": "JQ9853",
-		"x": 3.325,
-		"y": 3.7704
-	},
-	{
-		"FlightNumber": "EO5827",
-		"x": 7.1306,
-		"y": -9.1113
-	},
-	{
-		"FlightNumber": "UV6747",
-		"x": 7.6898,
-		"y": -6.0138
-	},
-	{
-		"FlightNumber": "HW0858",
-		"x": -2.0272,
-		"y": 2.8743
-	},
-	{
-		"FlightNumber": "IG2793",
-		"x": -1.801,
-		"y": 6.2812
-	},
-	{
-		"FlightNumber": "FD6871",
-		"x": -3.3474,
-		"y": -6.3714
-	},
-	{
-		"FlightNumber": "YE7225",
-		"x": 1.5037,
-		"y": 9.2868
-	},
-	{
-		"FlightNumber": "KJ7863",
-		"x": -9.1837,
-		"y": 7.7572
-	},
-	{
-		"FlightNumber": "BK8518",
-		"x": 6.9803,
-		"y": 9.651
-	},
-	{
-		"FlightNumber": "IA7081",
-		"x": -7.863,
-		"y": -6.8075
-	},
-	{
-		"FlightNumber": "SG6488",
-		"x": -9.8588,
-		"y": -4.4599
-	},
-	{
-		"FlightNumber": "MR4520",
-		"x": 9.8307,
-		"y": 0.6076
-	},
-	{
-		"FlightNumber": "LM8254",
-		"x": 6.6495,
-		"y": -6.3243
-	},
-	{
-		"FlightNumber": "BF3711",
-		"x": 6.1567,
-		"y": -6.9393
-	},
-	{
-		"FlightNumber": "VD0070",
-		"x": 5.1795,
-		"y": -1.3784
-	},
-	{
-		"FlightNumber": "OR2521",
-		"x": 0.8123,
-		"y": 1.2328
-	},
-	{
-		"FlightNumber": "XC0206",
-		"x": 5.5254,
-		"y": -9.62
-	},
-	{
-		"FlightNumber": "VI1096",
-		"x": 9.384,
-		"y": 3.8804
-	},
-	{
-		"FlightNumber": "PG4206",
-		"x": -5.2848,
-		"y": 1.1722
-	},
-	{
-		"FlightNumber": "VG4440",
-		"x": -6.5869,
-		"y": 3.2856
-	},
-	{
-		"FlightNumber": "DQ3600",
-		"x": 5.1227,
-		"y": -0.4702
-	},
-	{
-		"FlightNumber": "UN2126",
-		"x": -7.6404,
-		"y": 9.9698
-	},
-	{
-		"FlightNumber": "CC5640",
-		"x": -0.5659,
-		"y": -1.2403
-	},
-	{
-		"FlightNumber": "ZD0618",
-		"x": 5.8711,
-		"y": 3.7631
-	},
-	{
-		"FlightNumber": "XH2058",
-		"x": 1.6711,
-		"y": -9.2412
-	},
-	{
-		"FlightNumber": "UG4355",
-		"x": -5.2047,
-		"y": 2.5398
-	},
-	{
-		"FlightNumber": "TM0178",
-		"x": -1.5244,
-		"y": 3.4753
-	},
-	{
-		"FlightNumber": "OH4298",
-		"x": 7.8198,
-		"y": -4.318
+		"FlightNumber": "WI5255",
+		"x": 9.2748,
+		"y": -6.8073
 	}
 ]
