@@ -31,6 +31,7 @@ for(i = 0; i < 100; i++)
         FlightNumber: name,
         x: chance.floating({min:-10,max:10, fixed:4}),
         y: chance.floating({min:-10,max:10, fixed:4}),
+        heading:chance.floating({min:0,max:360,fixed:1})
     }
     Airplane_data.push(Airplane);
 }

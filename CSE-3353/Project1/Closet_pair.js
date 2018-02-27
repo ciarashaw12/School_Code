@@ -38,6 +38,7 @@ BruteForce = function(data)
            
         } 
     }
+  let answer = collisionRisk(data[i],data[j]);
     //Returns a object of the results from the algorithm
     console.log("Brute Force Results");
     return{
@@ -47,9 +48,13 @@ BruteForce = function(data)
         "This is Airplane 2":Airplane2_name,
         "X2 coordinate": Airplane2_x,
         "Y2 coordinate": Airpane2_y,
-        "Distance":min
+        "Distance":min,
+        "Are they going to Collide":answer
     };
 }
 
-
+collisionRisk = function(f1,f2)
+{
+    if()
+}
 console.log(BruteForce(data));

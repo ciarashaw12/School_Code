@@ -58,22 +58,25 @@ AlternateBruteForce = function(data)
    
     for(i = 0; i < data.length - 1; ++i)
     {
-        j = i + 1
-        let dist = getDistance(data[i], data[j])
-        if(i == 0)
+        for(j = 0; j < data.length && (data[j].y - data[i].y) < min; ++j)
         {
-            min = dist
+            let dist = getDistance(data[i], data[j])
+            if(i == 0)
+            {
+                min = dist
+            }
+            else if(dist < min)
+            {
+                var Airplane1_name = data[i].FlightNumber;
+                var Airplane1_x = data[i].x;
+                var Airplane1_y = data[i].y;
+                var Airplane2_name = data[j].FlightNumber;
+                var Airplane2_x = data[j].x;
+                var Airpane2_y = data[j].y;
+                min = dist;
+            }
         }
-        else if(dist < min)
-        {
-            var Airplane1_name = data[i].FlightNumber;
-            var Airplane1_x = data[i].x;
-            var Airplane1_y = data[i].y;
-            var Airplane2_name = data[j].FlightNumber;
-            var Airplane2_x = data[j].x;
-            var Airpane2_y = data[j].y;
-            min = dist;
-        }
+        
     }
     console.log("Brute Force Results");
     return{
@@ -86,6 +89,5 @@ AlternateBruteForce = function(data)
         "Distance":min
     };
 }
-
 
 console.log(AlternateBruteForce(sortArray(data)));
