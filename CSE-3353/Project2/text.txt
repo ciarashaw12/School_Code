@@ -1,0 +1,62 @@
+[
+	{
+		"charcter": "a",
+		"frequency": 6
+	},
+	{
+		"charcter": "h",
+		"frequency": 2
+	},
+	{
+		"charcter": "n",
+		"frequency": 2
+	},
+	{
+		"charcter": "b",
+		"frequency": 1
+	},
+	{
+		"charcter": "f",
+		"frequency": 8
+	},
+	{
+		"charcter": "k",
+		"frequency": 2
+	},
+	{
+		"charcter": "d",
+		"frequency": 2
+	},
+	{
+		"charcter": "j",
+		"frequency": 4
+	},
+	{
+		"charcter": "g",
+		"frequency": 2
+	},
+	{
+		"charcter": "i",
+		"frequency": 3
+	},
+	{
+		"charcter": "t",
+		"frequency": 1
+	},
+	{
+		"charcter": "m",
+		"frequency": 1
+	},
+	{
+		"charcter": "u",
+		"frequency": 1
+	},
+	{
+		"charcter": "s",
+		"frequency": 1
+	},
+	{
+		"charcter": "l",
+		"frequency": 2
+	}
+]
